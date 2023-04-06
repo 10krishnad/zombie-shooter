@@ -1,0 +1,19 @@
+.container{
+    width:80vw;
+    height:70vh;
+    background-color: #A4BC92;
+    position: absolute;
+    inset: 10%;
+
+    
+}
+#player{
+   width:fit-content;
+   position: relative;
+}
+#player img{
+    position: absolute;
+    width:300px;
+    height:200px;
+    left: 0;
+}
