@@ -1,19 +1,25 @@
+body{
+    background-color: #393646;
+}
 .container{
     width:80vw;
     height:70vh;
-    background-color: #A4BC92;
+    border-radius: 16px;
+    background-color: #4F4557;
     position: absolute;
-    inset: 10%;
-
-    
+    inset: 10%; 
+    box-shadow: 5px 5px 15px 15px black inset; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 #player{
    width:fit-content;
-   position: relative;
 }
-#player img{
+#player-img{
+    width:250px;
+    height:250px;
     position: absolute;
-    width:300px;
-    height:200px;
     left: 0;
+    top: 0;
 }
